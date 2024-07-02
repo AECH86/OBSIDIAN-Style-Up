@@ -1,0 +1,10 @@
+.tree-item .nav-folder::after {
+  position: relative;
+  left: var(--layout-margin);
+  font-size: 11px;
+  font-weight: 1000;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: red;
+  font-size: var(--font-adaptive-smallest);
+}

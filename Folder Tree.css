@@ -1,0 +1,27 @@
+
+.nav-folder-children > .nav-folder,
+.nav-files-container  {
+    margin-inline-start: -3px !important;
+    padding-inline-start: 0px !important;
+} 
+
+.tree-item-self.mod-collapsible {
+	padding: 3px 0px 3px 24px;
+	font-weight: 700;
+}	
+.nav-file-title {
+	padding: 0px 0px 0px 24px;
+	font-weight: 400;
+	font-family: Monospace;
+}	
+
+.nav-file-title-content::first-letter {
+	color: #fff0a1;
+	text-decoration: underline;
+	text-underline-offset: 3px;
+	font-weight: normal;
+	font-size: 14px;
+	font-family: Verdana;
+	padding: 0px 3px 0px 0px;
+	opacity: 80%;
+}

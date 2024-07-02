@@ -1,0 +1,20 @@
+.callout[data-callout="reflexion"] {
+--callout-color:  DeepSkyBlue;
+	background-color: transparent;
+	border: 3px solid DeepSkyBlue;
+	padding: 5px 10px 5px 15px;
+	color: Azure;
+--callout-radius: 15px;
+--callout-icon: brain;
+width: 100%;
+}
+.callout[data-callout="reflexion"] .callout-title {
+	color: Coral;
+	font-style: italic;
+	font-size: 12px;
+	font-weight: normal
+}
+.callout[data-callout="reflexion"] .callout-icon {
+	color: Goldenrod;
+}
+
