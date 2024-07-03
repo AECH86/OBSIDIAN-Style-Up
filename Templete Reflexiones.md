@@ -13,11 +13,11 @@ FLATTEN file.lists as Ref
 WHERE contains(Ref.ReflexionAECH,"#TAG")
 SORT file.link asc
 ```
-## Abitat
+## USER
 ```dataview
 TABLE without id 
 	file.link as "Link", 
-	Ref.ReflexionAbitat AS "Reflexiones Sobre Abitat"
+	Ref.ReflexionUSER AS "Reflexiones Sobre USER"
 WHERE contains(file.tags,"#TAG")
 FLATTEN file.lists as Ref
 WHERE contains(Ref.ReflexionAbitat,"#TAG")
