@@ -1,0 +1,6 @@
+- **Titulo**:: 
+	- **Fecha**:: 
+	- **PARTICIPANTES**
+	- **NOTAS**
+	- **ACCIONES**
+		- 
