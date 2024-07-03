@@ -17,13 +17,13 @@ WHERE contains(Empresa, this.file.link)
 ## Oportunidades
 ```dataview
 table without id file.link as "Proyecto", Estatus,Estado,AreaM2,ArranqueConc,LiderDN,Broker,Gerencia,Diseñador
-from "ABITAT/Oportunidades"
+from "USER/Oportunidades"
 where contains(Empresa,this.file.link) OR contains(Broker,this.file.link) OR contains(Gerencia,this.file.link) OR contains(Diseñador,this.file.link)
 ```
 ## Personas
 ```dataview
 table without id file.link as "Persona",Puesto,Base,Correo,Linkedin
-from "ABITAT/Personas"
+from "USER/Personas"
 where contains(Empresa,this.file.link)
 ```
 ## Pendientes
