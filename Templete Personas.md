@@ -31,7 +31,7 @@ TABLE WITHOUT ID
 	Broker,
 	Gerencia,
 	Diseñador
-FROM "ABITAT/Oportunidades"
+FROM "USER/Oportunidades"
 WHERE contains(Empresa,this.file.link) 
 	OR contains(Broker,this.file.link) 
 	OR contains(Gerencia,this.file.link) 
